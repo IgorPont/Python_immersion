@@ -7,7 +7,7 @@ from random import randint
 
 def guess_number():
     num_required = randint(0, 1000)
-    print(num_required)
+    # print(num_required)
     stroke_count = 10
     while stroke_count != 0:
         user_num = int(input('Enter a number:\n'))

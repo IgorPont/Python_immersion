@@ -11,5 +11,3 @@ elif year % 4 == 0:
 else:
     output_str = 'Ordinary year'
 print(output_str)
-
-# Остановился на 1:35

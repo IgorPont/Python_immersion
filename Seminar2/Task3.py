@@ -10,7 +10,7 @@
 # print(f'convert num: {convert_to_base(20, 8)}, right res: {oct(111)}')
 
 num = 333333 # число, которое переводим
-base = 16 # система исчисления
+base = 8 # система исчисления
 temp = ''
 res = ''
 while (num > 0):
@@ -18,4 +18,4 @@ while (num > 0):
     num //= base
 res = temp[::-1]
 print(res)
-print(hex(333333))
+print(oct(333333))

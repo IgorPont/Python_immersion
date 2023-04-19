@@ -23,4 +23,4 @@ if __name__ == "__main__":
     print(guess_the_number(1, 8, 5))
     name, *args = argv
     print(guess_the_number(*(int(x) for x in
-                             args)))  # Запускаем через терминал командой python3 Task2.py 1 10 5 (через пробел передаем параметры в функцию)
+                             args)))  # Запускаем через терминал командой python3 pseudonym_generator.py 1 10 5 (через пробел передаем параметры в функцию)
